@@ -12,7 +12,7 @@ if (isset($_REQUEST['name'],$_REQUEST['email'])) {
     $subject = 'Contact Request From Portfolio Website';
     $headers = "From: ".$name." <".$email."> \r\n";
       
-    $send_email = mail($to,$subject,$message,$headers);
+    $send_email = mail($to,$subject,$phone,$message,$headers);
       
     echo ($send_email) ? 'success' : 'error';
       
