@@ -843,7 +843,8 @@ section.bl-expand .bl-icon-close {
 	display: flex;
 	flex-flow: column;
 
-	min-height: 500px;
+/* 	min-height: 500px; */
+	min-height: 800px;
 }
 
 .resume-content {
